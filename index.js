@@ -10,10 +10,9 @@ function addBurger(){
         burgers.push(anotherNewBurger)
     }
     function changeFeaturedDrink(){
-    featuredDrink = `'The JavaShake'`
+    featuredDrink = 'The JavaShake'
 }
 changeFeaturedDrink()
 }
-addBurger()
 console.log(featuredDrink)
 console.log(burgers)
