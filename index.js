@@ -9,10 +9,11 @@ function addBurger(){
         const anotherNewBurger = 'Maple Bacon Burger'
         burgers.push(anotherNewBurger)
     }
-    function changeFeaturedDrink(){
+}
+function changeFeaturedDrink(){
     featuredDrink = 'The JavaShake'
 }
 changeFeaturedDrink()
-}
+
 console.log(featuredDrink)
 console.log(burgers)
